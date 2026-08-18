@@ -8,7 +8,7 @@ import Input from '@/components/ui/Input';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import { loginSchema, type LoginInputs } from '@/shared/schemas/auth.schema';
-import { useLogin } from '@/hooks/queries/useAuth';
+import { useLogin } from '@/hooks/queries/authMutations';
 import { useNotification } from '@/hooks/useNotification';
 
 export default function LoginPage() {

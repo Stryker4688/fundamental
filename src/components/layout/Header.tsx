@@ -23,7 +23,7 @@ export default function Header() {
             </Button>
           </>
         ) : (
-          <Link href="/login" className="text-sm text-blue-600 hover:underline">
+          <Link href="/auth/login" className="text-sm text-blue-600 hover:underline">
             ورود
           </Link>
         )}

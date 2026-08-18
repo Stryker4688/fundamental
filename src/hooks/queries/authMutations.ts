@@ -1,4 +1,4 @@
-// src/hooks/queries/useAuth.ts
+// src/hooks/queries/authMutations.ts
 'use client';
 
 import { useMutation } from '@tanstack/react-query';

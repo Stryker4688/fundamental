@@ -8,7 +8,7 @@ import Input from '@/components/ui/Input';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import { registerSchema, type RegisterInputs } from '@/shared/schemas/auth.schema';
-import { useRegister } from '@/hooks/queries/useAuth';
+import { useRegister } from '@/hooks/queries/authMutations';
 import { useNotification } from '@/hooks/useNotification';
 
 export default function RegisterPage() {

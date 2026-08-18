@@ -1,9 +1,8 @@
 // src/hooks/useScrollToTop.ts
-import { useEffect } from 'react';
+import { useEffect, type DependencyList } from 'react';
 
-export function useScrollToTop(deps: unknown[] = []) {
+export function useScrollToTop(deps: DependencyList = []) {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, deps);
 }
