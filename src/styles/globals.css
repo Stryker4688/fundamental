@@ -1,0 +1,16 @@
+/* src/styles/globals.css */
+@import 'tailwindcss';
+
+/* استایل‌های سفارشی */
+:root {
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+}
+
+/* برای راست‌چین بودن کل سند */
+body {
+  direction: rtl;
+}
